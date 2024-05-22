@@ -1,9 +1,8 @@
 import json
+
 import requests
-
-from flask import Flask, abort, request, jsonify
+from flask import Flask, abort, jsonify, request
 from requests.structures import CaseInsensitiveDict
-
 
 BOT_ID = "8c44cf8a3d72faa3e74fe2fb28"
 
